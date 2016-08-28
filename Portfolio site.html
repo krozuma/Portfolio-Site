@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Keith's Portfolio Site</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" >
+         <header>
+           <picture>
+             <source media="(min-width: 800px)" srcset="images/udacity-logo-1600_large_.png"/>
+             <source media="(min-width: 600px)" srcset="images/udacity-logo-700_medium_.png"/>
+             <img class="img-responsive" id="logo" alt="Udacity logo" src="images/udacity-logo-500_small_.png">
+           </picture>
+        </div>
+          <div class="col-md-6 text-uppercase">
+            <h1 class="text-right">Keith Rozumalski</h1>
+              <p class="text-right" id="subtitle">Font-end Ninja</p>
+          </div>
+         </header>
+          <div class="col-md-12" id="line"></div>
+       </div>
+    <main>
+    <div class="row">
+        <div class="col-md-12">
+          <picture>
+            <source media="(min-width: 800px)" srcset="images/code-1600_large_.jpg"/>
+            <source media="(min-width: 600px)" srcset="images/code-700_medium_.jpg"/>
+            <img class="img-responsive" src="images/code-500_small_.jpg" alt="HTML code on a screen" data-toggle="modal" data-target="#description_window">
+              <figcaption>Click the picture to learn more about the app.</figcaption>
+          </pictcure>
+        </div>
+      </div>
+    </main>
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Featured Work</h2>
+      </div>
+    </div>
+    <div class="project_section">
+    <div class="row">
+      <div class="col-md-4">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/AmerBeauty-1600_large_.jpg"/>
+          <source media="(min-width: 600px)" srcset="images/AmerBeauty-700_medium_.jpg"/>
+          <img class="img-responsive" alt="Sceen from American Beauty" src="images/AmerBeauty-500_small_.jpg">
+        </picture>
+        <h3 class="text-uppercase">Movie Website</h3>
+        <a href="https://github.com/krozuma/Udacity-Movie-Website">https://github.com/krozuma/Udacity-Movie-Website</a>
+      </div>
+      <div class="col-md-4">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/blog_blocks-1600_large_.jpg"/>
+          <source media="(min-width: 600px)" srcset="images/blog_blocks-700_medium_.jpg"/>
+          <img class="img-responsive" alt="Blog spelled out with blocks" src="images/blog_blocks-500_small_.jpg">
+        </picture>
+        <h3 class="text-uppercase">Multi User Blog</h3>
+        <a href="https://github.com/krozuma/Udacity-Blog">https://github.com/krozuma/Udacity-Blog</a>
+      </div>
+      <div class="col-md-4">
+        <picture>
+          <source media="(min-width: 800px)" srcset="images/tournament-1600_large_.jpg"/>
+          <source media="(min-width: 600px)" srcset="images/tournament-700_medium_.jpg"/>
+          <img class="img-responsive" alt="Tournament bracket" src="images/tournament-500_small_.jpg">
+        </picture>
+        <h3 class="text-uppercase">Tournament App</h3>
+        <a href="https://github.com/krozuma/Udacity-Tournament-App">https://github.com/krozuma/Udacity-Tournament-App</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <!-- Modal -->
+    <div class="modal fade" id="description_window" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" alt="HTML code on a screen" src="images/code-500_small_.jpg">
+                    Zombie ipsum reversus ab viral inferno, nam rick grimes malum
+                    cerebro. De carne lumbering animata corpora quaeritis. Summus
+                    brains sit​​, morbo vel maleficia? De apocalypsi gorger omero
+                    undead survivor dictum mauris. Hi mindless mortuis soulless
+                    creaturas, imo evil stalking monstra adventus resi dentevil
+                    vultus comedat cerebella viventium. Qui animated corpse,
+                    cricket bat max brucks terribilem incessu zomby. The voodoo
+                    sacerdos flesh eater, suscitat mortuos comedere carnem virus.
+                    Zonbi tattered for solum oculi eorum defunctis go lum cerebro.
+                    Nescio brains an Undead zombies. Sicut malus putrid voodoo
+                    horror. Nigh tofth eliv ingdead.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/picturefill.min.js"></script>
+  </body>
+</html>
